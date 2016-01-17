@@ -13,7 +13,10 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+        
         // Do any additional setup after loading the view.
     }
 
@@ -23,11 +26,15 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        // cell will have 20 rows
+        return 20
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+        let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath)
+        cell.textLabel!.text = "row \(indexPath.row)"
+        print("row \(indexPath.row)")
+        return cell
     }
 
     /*
