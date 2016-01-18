@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='![animatedGIF](flicks.gif)' title='Flicks App Video Walkthrough' width='' alt='Flicks App Video Walkthrough' />
+![animatedGIF](flicks.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
