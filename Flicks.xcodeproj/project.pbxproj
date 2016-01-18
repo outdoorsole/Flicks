@@ -56,13 +56,13 @@
 		1613A7491C4BA15B0051281C /* Flicks */ = {
 			isa = PBXGroup;
 			children = (
+				1613A7611C4C82560051281C /* view controllers */,
 				1613A75E1C4C816F0051281C /* Views */,
 				1613A74A1C4BA15B0051281C /* AppDelegate.swift */,
 				1613A74E1C4BA15B0051281C /* Main.storyboard */,
 				1613A7511C4BA15B0051281C /* Assets.xcassets */,
 				1613A7531C4BA15B0051281C /* LaunchScreen.storyboard */,
 				1613A7561C4BA15B0051281C /* Info.plist */,
-				1613A75C1C4BA6BD0051281C /* MoviesViewController.swift */,
 			);
 			path = Flicks;
 			sourceTree = "<group>";
@@ -73,6 +73,14 @@
 				1613A75F1C4C81AC0051281C /* MovieCell.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		1613A7611C4C82560051281C /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1613A75C1C4BA6BD0051281C /* MoviesViewController.swift */,
+			);
+			name = "view controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
