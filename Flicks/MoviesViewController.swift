@@ -92,7 +92,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         // Do the following when the network request comes back successfully:
         // Update tableView data source
-        self.myTableView.reloadData()
+        self.tableView.reloadData()
         refreshControl.endRefreshing()
     }
     
