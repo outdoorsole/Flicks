@@ -8,6 +8,7 @@
 
 import UIKit
 import AFNetworking
+import SVProgresHUD
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!

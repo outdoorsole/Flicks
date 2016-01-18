@@ -6,5 +6,6 @@ inhibit_all_warnings!
 
 target 'Flicks' do
     pod 'AFNetworking', '~> 3.0'
+    pod 'SVProgressHUD', :head
 end
 
