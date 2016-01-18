@@ -11,6 +11,9 @@ import UIKit
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     @IBOutlet weak var tableView: UITableView!
 
+    // instance variable (represents each movie)
+    var movies: [NSDictionary]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +36,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                         data, options:[]) as? NSDictionary {
                             NSLog("response: \(responseDictionary)")
                             
+                            self.movies = responseDictionary["results"] as? [NSDictionary]
+                            
                     }
                 }
         });
@@ -53,7 +58,10 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath)
-        cell.textLabel!.text = "row \(indexPath.row)"
+        let movie = movies![indexPath.row]
+        let title = movie["title"] as! String
+        
+        cell.textLabel!.text = title
         print("row \(indexPath.row)")
         return cell
     }
