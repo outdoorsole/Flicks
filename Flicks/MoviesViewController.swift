@@ -19,7 +19,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         
         // Initialize a UIRefreshControl
-        _ = UIRefreshControl()
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: "refreshControlAction:", forControlEvents: UIControlEvents.ValueChanged)
         
         tableView.dataSource = self
         tableView.delegate = self
