@@ -18,6 +18,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Initialize a UIRefreshControl
+        _ = UIRefreshControl()
+        
         tableView.dataSource = self
         tableView.delegate = self
         
@@ -83,6 +86,16 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
 
+    func refreshControlAction(refreshControl: UIRefreshControl) {
+        
+        // Make network request to fetch latest data
+        
+        // Do the following when the network request comes back successfully:
+        // Update tableView data source
+        self.myTableView.reloadData()
+        refreshControl.endRefreshing()
+    }
+    
     /*
     // MARK: - Navigation
 
