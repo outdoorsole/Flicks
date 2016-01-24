@@ -15,7 +15,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     // instance variable (represents each movie)
     var movies: [NSDictionary]?
-    var endpoint: String = ""
+    var endpoint: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
