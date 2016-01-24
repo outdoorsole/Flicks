@@ -66,7 +66,7 @@ Time spent: **X** hours spent in total
 The following **required** functionality is completed:
 
 - [X] User can view movie details by tapping on a cell.
-- [ ] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
+- [X] User can select from a tab bar for either **Now Playing** or **Top Rated** movies.
 - [ ] Customize the selection effect of the cell.
 
 The following **optional** features are implemented:
