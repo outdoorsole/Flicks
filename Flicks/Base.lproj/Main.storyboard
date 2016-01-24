@@ -83,7 +83,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <view alpha="0.80000000000000004" contentMode="scaleToFill" id="M7B-Rj-mzV">
-                                        <rect key="frame" x="0.0" y="202" width="320" height="240"/>
+                                        <rect key="frame" x="0.0" y="504" width="320" height="240"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8iT-bA-cmN">
