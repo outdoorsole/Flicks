@@ -112,6 +112,7 @@
                     <connections>
                         <outlet property="overviewLabel" destination="Dbd-VN-bxP" id="rPd-if-KRW"/>
                         <outlet property="posterImageView" destination="ivb-g0-Ey7" id="5ob-Pe-OMT"/>
+                        <outlet property="scrollView" destination="TUH-L5-GyG" id="9mM-jq-gPM"/>
                         <outlet property="titleLabel" destination="8iT-bA-cmN" id="6In-QU-YJm"/>
                     </connections>
                 </viewController>
