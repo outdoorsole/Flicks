@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="816" y="367"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="XDK-At-myV">
             <objects>
-                <viewController id="JSq-aD-6RJ" sceneMemberID="viewController">
+                <viewController id="JSq-aD-6RJ" customClass="DetailViewController" customModule="Flicks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0mP-gP-qCx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
