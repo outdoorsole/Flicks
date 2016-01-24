@@ -10,6 +10,11 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var posterImageView: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

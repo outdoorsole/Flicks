@@ -103,6 +103,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="PME-Os-LHr"/>
+                    <connections>
+                        <outlet property="posterImageView" destination="ivb-g0-Ey7" id="5ob-Pe-OMT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6b-lG-uA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
