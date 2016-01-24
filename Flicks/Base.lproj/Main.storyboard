@@ -110,6 +110,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="PME-Os-LHr"/>
                     <connections>
+                        <outlet property="infoView" destination="M7B-Rj-mzV" id="lT5-ei-b3g"/>
                         <outlet property="overviewLabel" destination="Dbd-VN-bxP" id="rPd-if-KRW"/>
                         <outlet property="posterImageView" destination="ivb-g0-Ey7" id="5ob-Pe-OMT"/>
                         <outlet property="scrollView" destination="TUH-L5-GyG" id="9mM-jq-gPM"/>
