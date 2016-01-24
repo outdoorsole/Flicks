@@ -33,6 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [nowPlayingNavigationController, topRatedNavigationController]
         
+        // Set the initial view controller
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
+        
         // Override point for customization after application launch.
         return true
     }
