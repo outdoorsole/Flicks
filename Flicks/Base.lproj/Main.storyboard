@@ -18,11 +18,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="118" id="iUh-QK-spv" customClass="MovieCell" customModule="Flicks" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="118" id="iUh-QK-spv" customClass="MovieCell" customModule="Flicks" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="118"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iUh-QK-spv" id="cUW-93-tTT">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="117.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="117.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e0P-eZ-xe0">
@@ -49,6 +49,7 @@
                                             <outlet property="overviewLabel" destination="krn-5U-BYH" id="DWP-6B-QNF"/>
                                             <outlet property="posterView" destination="tGv-Ie-4pW" id="3sy-Ru-UIF"/>
                                             <outlet property="titleLabel" destination="e0P-eZ-xe0" id="EnH-CD-ak9"/>
+                                            <segue destination="JSq-aD-6RJ" kind="push" id="fCO-Qd-sIQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -63,6 +64,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="284" y="367"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="XDK-At-myV">
+            <objects>
+                <viewController id="JSq-aD-6RJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0mP-gP-qCx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PME-Os-LHr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6b-lG-uA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="632" y="367"/>
         </scene>
     </scenes>
 </document>
