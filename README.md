@@ -2,7 +2,7 @@
 
 Flicks App is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **5** hours spent in total
+Time spent: **16** hours spent in total
 
 ## User Stories
 
@@ -55,11 +55,11 @@ Describe any challenges encountered while building the app.
 
 -------------------------------------------------------------------------------------------------------------
 
-# Project 2 - *Name of App Here*
+# Project 2 - *Flicks App*
 
-**Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flicks is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -90,6 +90,11 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Icons for Navigation Bar credits (Creative Commons):
+1) 'Now Playing' Icon (tickets by Arthur Lacôte from the Noun Project)
+
+2) 'Top Rated' Icon (Star by Marek Polakovic from the Noun Project)
 
 ## Notes
 
